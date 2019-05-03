@@ -4,7 +4,7 @@ A script that sets up everything in one go.
 1. Use `sawyer_install_script.bash` to set up your workspace (see )
 2. Install CUDA using `cuda_install.sh` hold down enter to go through the end-user agreement. Say keep default locations and say `yes` to everything EXCEPT Install NVIDIA Accelerated Graphics Driver. This should already be installed and since it's running it will fail.
 3. Add cuda to your path with `cuda_install_cleanup.sh`. You can test if you installed everything successfully by running the following:
-- `cd ~/NVIDIA_CUDA-10.0_Samples
+- `cd ~/NVIDIA_CUDA-10.0_Samples`
 
 - `make`
 - `cd bin/x86_64/linux/release`
